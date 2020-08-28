@@ -50,7 +50,6 @@ nav {
     /*height: 75px;*/
     margin-top: 2px;
     margin: auto;
-    display: block;
 }
 
 .corralon img {
@@ -72,50 +71,13 @@ nav {
     
 }
 
-FIXME:/*Ocultar menu*/ 
 
-.lista-prod {
-    /*position: absolute;*/
-}
 
-.navbar {
-    /*position: relative;
-    overflow: hidden;*/
-}
-/*fin*/
-
-/*submenu*/
-
-.sub-menu {
-    background: #EBEBEB;
-    height: 250px;
-    /*position: absolute;*/
-    display: none;
-}
-
-.prod :hover .sub-menu{
-    display: block;
-    border-bottom: 4px solid #2EB363;
-}
-
-.lista-prod h1 {
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 20px;
-    color: #00363A;
-}
-.lista-prod h4 {
-    font-size: 14px;
-    font-weight: 300;
-    margin-top: 8px;
-    color: #00363A;
-}
 /*hover*/
-.navbar2  a .prod:hover .sub-menu{
-    display: block;
+.navbar2  a:hover {
     border-bottom: 4px solid #2EB363;
-}
 
+}
 /*fin hover*/
 
 .iconos-compra img {
