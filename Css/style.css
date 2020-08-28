@@ -50,6 +50,7 @@ nav {
     /*height: 75px;*/
     margin-top: 2px;
     margin: auto;
+    display: block;
 }
 
 .corralon img {
@@ -92,8 +93,9 @@ FIXME:/*Ocultar menu*/
     display: none;
 }
 
-.mostrar :hover .sub-menu{
-
+.prod :hover .sub-menu{
+    display: block;
+    border-bottom: 4px solid #2EB363;
 }
 
 .lista-prod h1 {
@@ -109,7 +111,8 @@ FIXME:/*Ocultar menu*/
     color: #00363A;
 }
 /*hover*/
-.navbar2  a:hover {
+.navbar2  a .prod:hover .sub-menu{
+    display: block;
     border-bottom: 4px solid #2EB363;
 }
 
