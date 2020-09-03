@@ -1,0 +1,2996 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1900px;
+    margin: auto;
+}
+
+.container2 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+/*Header*/
+header {
+    background: #2EB363;
+    display: flex;
+}
+
+.logos-redes img {
+    height: 20px;
+}
+
+/*Navbar*/
+
+.btn-menu {
+    /*visibility: hidden;*/
+    height: 20px;
+}
+
+nav {
+    background: #00363A;
+    height: 75px;
+    margin-top: 2px;
+    margin: auto;
+}
+
+
+.corralon img {
+    height: 35px;
+    margin-top: 25px;
+    
+}
+
+
+.navbar2  ul{   
+    list-style: none;
+}
+
+.navbar2 h4 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 20px;
+
+    background: none;
+    
+}
+
+/*Intento Barra superior*/
+.barra-sup {
+    background: #00363A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: auto;
+}
+
+.otro2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.corralon {
+    display: inline-block;
+}
+.barra {
+    display: inline-block;
+}
+.iconos-compra {
+    display: inline-block;
+}
+
+.barra-sup {
+    height: 80px;
+    position: relative;
+    z-index: 9000;
+}
+
+
+.barra ul {
+    list-style: none;
+}
+
+.barra li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu {
+    display: none;
+}
+
+/*Sub Menu*/
+
+.menu-barra a {
+    display: block;
+    padding: 4px ;
+    text-decoration: none;
+    margin-top: 35px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    height: 50px;
+}
+
+.menu-barra a:hover {
+    color: #2EB363;
+    background: #EBEBEB;
+    transition: all .3s;
+}
+
+.sub-menu {
+    position: absolute;
+     
+    /*
+    display: none;
+   overflow: hidden;
+    
+    
+    */
+    visibility: hidden;
+    z-index: 9000;
+
+    background: #EBEBEB;
+    position: initial;
+}
+
+
+/* .menu-barra li a:hover .sub-menu {
+    display: block;
+    
+
+} */
+.hey:hover .sub-menu {
+    /*display: block;*/
+ visibility: visible;
+
+
+}
+
+
+.lista-prod {
+    max-width: 1700px;
+    width: 100%;
+}
+
+.lista-prod h1 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #00363A;
+}
+.lista-prod h4 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+    color: #00363A;
+}
+
+
+
+/*FIN Submenu*/
+
+/*hover*/
+.navbar2  a:hover {
+    border-bottom: 4px solid #2EB363;
+ 
+}
+/*fin hover*/
+
+.iconos-compra img {
+    height: 20px;
+    margin-top: 25px;
+    fill: #ffffff;
+    margin-left: 4px;
+}
+
+/*Principal*/
+
+.primero {
+    position: relative;
+
+    width: 100%;
+    max-width: 1900px;
+
+
+    
+}
+
+.img-fondo {
+   /*  max-width: 1300px;
+    width: auto; */
+}
+
+.image img {
+
+    width: 100%;
+    max-width: 1900px;
+}
+
+.primero h1, .primero h4 {
+    background: #2EB363;
+
+}
+
+.detalles {
+/*     width: 90%;
+    max-width: 1700px;
+ */
+ height: auto;
+ max-height: 300px;
+
+}
+
+.detalles h1 {
+    font-size: 22px;
+    color: #ffffff;
+}
+.detalles h2 {
+    font-size: 40px;
+    color: #000000;
+}
+.detalles h3 {
+    font-size: 70px;
+    color: #2EB363;
+}
+.detalles h4 {
+    font-size: 35px;
+    color: #ffffff;
+}
+.boton h1 {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    color: #ffffff;
+}
+.boton h4 {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+
+/*Superponer*/
+.image {
+    position: relative;
+}
+
+.cartel {
+    position: absolute;
+    overflow: hidden;
+    margin-top: 70px;
+    height: auto;
+    max-height: 300px;
+    font-size: 40px;
+   
+}
+
+/*Fin*/
+
+/*Métodos de pago*/
+
+.pagos {
+    background: #EBEBEB;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+}
+
+
+.imagen {
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.imagen img {
+    width: 90%;
+    max-width: 1700px;
+
+}
+
+/*Categorías*/
+
+.categorias {
+    height: 350px;
+}
+
+.texto {
+    margin-top: 70px;
+}
+
+.detalles1 {
+    margin-top: 20px;
+}
+
+.detalles1 h1{
+    font-size: 16px;
+    font-weight: 300;
+}
+.detalles1 h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.detalles1 h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+hr {
+    background: #2EB363;
+    height: 10px;
+    width: 170px;
+}
+/*Producto 1*/
+.producto1 img, .producto2 img, .producto3 img, .producto4 img{
+    width: 210px;
+    height: 300px;
+    padding: 20px;
+}
+
+.boton-nvo {
+    border-radius: 10px;
+    background: #00363A;
+    text-align: center;
+    height: 120px;
+    width: 160px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.boton-nvo img {
+    height: 80px;
+    width: 80px;
+    
+}
+.boton-nvo h1 {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn1 {
+    display: none;
+    }
+
+
+.producto1 {
+    position: relative;
+}
+
+.boton-nvo {
+    position: absolute;
+    overflow: hidden;
+    margin-top: 170px;
+}
+
+/*Producto 2*/
+
+.producto2 {
+    position: relative;
+}
+
+/*Producto 3*/
+.producto3 {
+    position: relative;
+}
+
+/*Producto 4*/
+.producto4 {
+    position: relative;
+}
+
+/*Fondo1*/
+.categorias {
+    position: relative;
+}
+
+.detalles1 {
+    position: absolute;
+    overflow: hidden;
+}
+
+.fondo-1 {
+margin-top: 0px;
+}
+
+.fondo-1 img {
+    height: 150px;
+    width: 100%;
+    max-width: 2092px;
+    margin-top: 190px;
+}
+
+/*Productos destacados*/
+
+.fondo-2 img {
+    height: 130px;
+    width: 50%;
+    max-width: 2092px;
+}
+
+
+.dos{
+    text-align: center;
+    margin: auto;
+}
+.dos hr {
+    margin: auto;
+}
+
+.fondo2 {
+    position: relative;
+}
+.otro {
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+    height: 600px;
+}
+
+/*Grilla de productos*/
+
+.prod-dest {
+    margin-top: 30px;
+}
+
+.producto5 img{
+    width: 290px;
+    height: 290px;
+    margin-bottom: 20px;
+}
+
+.producto5 h6 {
+    font-size: 24px;
+}
+
+.boton2 {
+    border-radius: 10px;
+    background: #000000;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.boton2 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/*Publicidad1*/
+.marcas1 {
+    max-width: 1700px;
+    width: 90%;
+}
+.publicidad1 {
+    height: 250px;
+
+}
+.publicidad1 img {
+    height: 180px;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 1700px;
+
+}
+
+/*Mejores Productos*/
+
+.btn1-1 {
+    display: none;
+}
+
+.producto6 img{
+    width: 290px;
+    height: 290px;
+    margin-bottom: 20px;
+}
+
+.producto6 h6 {
+    font-size: 24px;
+} 
+/* .producto6 img{
+    width: 250px;
+    height: 200px;
+
+} */
+
+.txt2 {
+    margin-top: 20px;
+
+}
+
+.txt2 h1{
+    font-size: 16px;
+    font-weight: 300;
+
+}
+.txt2 h2{
+    font-size: 20px;
+    font-weight: 300;
+    width: 250px;
+}
+.txt2 h3{
+    font-size: 20px;
+    font-weight: 600;
+    width: 250px;
+}
+
+.boton3 {
+    border-radius: 10px;
+    background: #2EB363;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.boton3 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.desc {
+    position: relative;
+    width: 190px;
+}
+
+.desc h1 {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background: #2EB363;
+}
+
+.descuento {
+    position: absolute;
+    overflow: hidden;
+}
+
+/*Fondo3*/
+
+.mejores {
+    position: relative;
+}
+.mjrs {
+    margin-top: 160px;
+}
+
+.fondo-3 img {
+    width: 100%;
+    max-width: 2092;
+}
+
+
+/*Carteles de descuento*/
+
+.fila2 {
+    display: none;
+}
+
+.cartel3 img {
+
+    width: 400px;
+    padding: 10px;
+    margin: 50px 0px;
+}
+
+.boton4 {
+    border-radius: 10px;
+    background: #ffffff;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 160px;
+    margin-left: 242px;
+}
+
+.boton4 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #2EB363;
+    text-align: center;
+    padding: 15px;
+}
+
+.img{
+    position: absolute;
+}
+
+/*Marcas*/
+
+.marcas {
+    margin: 50px 0px;
+    
+}
+
+.detalles2 {
+    margin-top: 30px;
+}
+
+
+.detalles2 h1{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.detalles2 h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.detalles2 h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.marcas2 img {
+    height: 350px;
+    
+}
+
+
+/*Footer*/
+.color-line  {
+    background: #2EB363;
+    height: 10px;
+    width: 100%;
+}
+.footer {
+    background: #00363A;
+}
+
+.titulos {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.titulos h1 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.color-blanco {
+    background: #ffffff;
+    height: 2px;
+    width: 70px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.titulos h4 {
+    color: #ffffff;
+    font-size: 8px;
+    padding: 6px;
+}
+
+.img-redes img{
+    height: 40px;
+    padding: 4px;
+}
+
+.data img{
+    height: 80px;
+}
+
+.img-contacto img {
+    height: 20px;
+}
+
+.espacio {
+    margin-bottom: 10px;
+}
+
+
+/*Pie*/
+
+.pie {
+    background: #2EB363;
+    height: 60px;
+    width: 100%;
+}
+
+.pie h1 {
+    font-size: 10px;
+    font-weight: 300px;
+}
+
+.pie img {
+    height: 20px;
+}
+
+.cosas {
+    margin-top: 20px;
+    justify-content: space-between;
+    max-width: 90%;
+}
+
+
+
+
+
+
+/*Media Query*/
+
+@media (min-width: 300px) and (max-width: 413px) {
+
+    /*Barra*/
+
+    .barra {
+        display: none;
+    }
+    .barra-sup {
+        height: 40px;
+    }
+    .iconos-compra img {
+        height: 2px;
+        margin-top: 10px;
+        fill: #ffffff;
+        height: 6px;
+        width: 6px;
+    }
+    
+        .menu {
+            display: block;
+
+        }
+    
+        .corralon img {
+            height: 15px;
+            margin-top: 10px;
+            width: 80px;
+        }
+        
+        .menu-barra  {
+            display: none;
+        }
+
+
+    /*Primero*/
+    .cartel {
+        margin-left: 30px;
+        margin-top: 10px;
+
+       
+    }
+    .detalles {
+         height: auto;
+         max-height: 100px;
+        
+        }
+    .image {
+        /* justify-content: center;
+        margin: auto; */
+    }
+    .detalles h1 {
+        font-size: 9px;
+    }
+    .detalles h2 {
+        font-size: 8px;
+    }
+    .detalles h3 {
+        font-size: 15px;
+    }
+    .detalles h4 {
+        font-size: 8px;
+    }
+    .boton h1 {
+        width: 48px;
+        height: 12px;
+        text-align: center;
+    }
+    .boton h4 {
+        width: 80px;
+        height: 10px;
+        text-align: center;
+    }
+    /*Categorías*/
+
+    .detalles1 {
+        margin-top: 0px;
+    }
+    
+    .detalles1 h1{
+        font-size: 9px;
+    }
+    .detalles1 h2{
+        font-size: 13px;
+    }
+    .detalles1 h3{
+        font-size: 15px;
+    }
+    hr {
+        width: 100px;
+        height: 7px;
+    }
+    /*Producto 1*/
+    .producto1 img, .producto2 img{
+        width: 160px;
+        height: 260px;
+        padding: 25px;
+    }
+    .producto1 {
+        margin-right: 70px;
+    }
+
+    .producto3 img, .producto4 img{
+        display: none;
+    }
+    
+    .boton-nvo {
+        height: 80px;
+        width: 100px;
+        padding: 3px;
+        margin-left: 30px;
+    }
+    
+    .boton-nvo a img {
+        height: 75px;
+        width: 75px;
+    }
+    .boton-nvo h1 {
+        font-size: 12px;
+        padding: 0px;
+    }
+    .boton-nvo {
+        margin-top: 150px;
+    }
+    
+    .btn1 {
+        display: block;
+        margin: auto;
+        margin-left: 20px;
+        margin-top: 20px;
+        } 
+
+    .btn1 h1 {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .btn1 h2 {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .btn1 h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .btn2 {
+        display: none;
+    }    
+
+    .btn3-4 {
+        display: none;
+    }
+    /*Fondo1*/
+    .fondo-1 img {
+        height: 90px;
+        width: 100%;
+        max-width: 2092px;
+        margin-top: 170px;
+    }
+
+    /*Prod Destacados*/
+    .fondo-2 img {
+        height: 80px;
+        width: 50%;
+        max-width: 2092px;
+    }
+    .otro h1 {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+        /*Grilla de productos*/
+
+        .prod5 {
+            display: none;
+        }
+
+        .prod-dest {
+            margin-top: 30px;
+        }
+        .producto5 {
+            margin-right: 70px;
+        }
+        .producto5 img{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .producto5 h5 {
+            font-size: 10px;
+        }
+        .producto5 h6 {
+            font-size: 20px;
+        }
+        
+        .boton2 {
+            border-radius: 10px;
+            background: #000000;
+            height: 40px;
+            width: 100px;
+            margin-top: 15px;
+        }
+        
+        .boton2 h4 {
+            font-size: 10px;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /*Publicidad1*/
+        .publicidad1 {
+            height: 110px;
+        
+        }
+
+        .publicidad1 img {
+            height: 50px;
+            margin: auto;
+            margin-top: 50px;
+            width: 90%;
+            max-width: 1700px;
+        
+        }
+
+                    /*Mejores Productos*/
+
+                    .btn1-1 {
+                        display: block;
+                        margin: auto;
+                        margin-left: 20px;
+                        margin-top: 00px;
+                        } 
+                
+                    .btn1-1 h1 {
+                        font-size: 10px;
+                        font-weight: 300;
+                    }
+                    .btn1-1 h2 {
+                        font-size: 12px;
+                        font-weight: 300;
+                    }
+                    .btn1-1 h3 {
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                    .otro {
+                        position: absolute;
+                        overflow: hidden;
+                        margin: auto;
+                        height: 3000px;
+                        width: 90%;
+                        max-width: 1700px;
+                    }
+                    
+                    .producto6 {
+                        margin-right: 350px;
+                    }
+                    
+                    .producto6 img{
+                        width: 100px;
+                        height: 100px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .producto6 h6 {
+                        font-size: 24px;
+                    
+                    } 
+                    .descuento h5 {
+                        font-size: 12px;
+                        width: 150px;
+                    
+                    } 
+                    .descuento h6 {
+                        font-size: 20px;
+                    } 
+                    .producto6 {
+                        margin-right: 40px;
+                        margin-left: 20px;
+                    
+                    }
+                    .txt2 {
+                        margin-top: 0px;
+                    
+                    }
+                    
+                    .txt2 h1{
+                        font-size: 12px;
+                        font-weight: 300;
+                    
+                    }
+                    .txt2 h2{
+                        font-size: 12px;
+                        font-weight: 300;
+                        width: 200px;
+                    }
+                    .txt2 h3{
+                        font-size: 12px;
+                        font-weight: 600;
+                        width: 200px;
+                    }
+                    
+                    .boton3 {
+                        border-radius: 10px;
+                        background: #2EB363;
+                        height: 20px;
+                        width: 80px;
+                        margin-top: 15px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .boton3 h4 {
+                        font-size: 8px;
+                        font-weight: 300;
+                        color: #ffffff;
+                        text-align: center;
+                        padding: 5px;
+                    }
+                    
+                    .desc h1 {
+                    
+                        font-size: 8px;
+                        color: #ffffff;
+                        background: #2EB363;
+                    
+                        text-align: center;
+                    }
+                    
+                    .desc { 
+                            position: relative;
+                            width: 80px;
+                            
+                    }
+                    
+                    .descuento {
+                        position: absolute;
+                        overflow: hidden;
+                    }
+
+                    .boton2 {
+                        border-radius: 10px;
+                        background: #000000;
+                        height: 40px;
+                        width: 100px;
+                        margin-top: 15px;
+                    }
+                    
+                    .boton2 h4 {
+                        font-size: 10px;
+                        font-weight: 300;
+                        color: #ffffff;
+                        text-align: center;
+                        padding: 15px;
+                    }
+                    
+                    
+                    /*Fondo3*/
+                    
+                    .mejores {
+                        position: relative;
+                        margin-bottom: 250px;
+                    }
+                    .mjrs {
+                        margin-top: 30px;
+                    }
+                    
+                    .fondo-3 img {
+                        width: 100%;
+                        max-width: 2092;
+                    }
+                    
+                    
+/*Carteles de descuento*/
+
+.fila1 {
+    display: none;
+}
+
+.fila2 {
+    display: block;
+}
+
+.descuentos2 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.cartel3 img {
+    
+    width: 300px;
+    padding: 10px;
+    margin: 50px 0px;
+}
+
+.boton4 {
+    border-radius: 10px;
+    background: #ffffff;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 135px;
+    margin-left: 180px;
+}
+
+.boton4 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #2EB363;
+    text-align: center;
+    padding: 10px;
+}
+
+.img{
+    position: absolute;
+}
+
+/*Marcas*/
+
+.texto {
+    margin-top: 10px;
+}
+
+.marcas1 {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.detalles3 {
+    margin-top: 30px;
+
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.detalles3 h1{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.detalles3 h2{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.detalles3 h3{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.marcas2 img {
+    height: 120px;
+    width: 250px;
+}
+
+
+/*Footer*/
+
+.seg {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.color-line  {
+    background: #2EB363;
+    height: 10px;
+    width: 100%;
+}
+.footer {
+    background: #00363A;
+}
+
+.titulos {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.titulos h1 {
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.color-blanco2 {
+    background: #ffffff;
+    height: 2px;
+    margin-top: 5px;
+ 
+}
+.titulos hr {
+    width: 300px;
+}
+.titulos h4 {
+    color: #ffffff;
+    font-size: 8px;
+
+}
+
+
+
+.img-contacto img {
+    height: 20px;
+}
+
+.espacio {
+    margin-bottom: 10px;
+}
+
+/*Pie*/
+
+.pie {
+    background: #2EB363;
+    height: 80px;
+    width: 100%;
+}
+
+.pie h1 {
+    font-size: 9px;
+    font-weight: 300px;
+    color: #ffffff;
+}
+
+.pie img {
+    height: 20px;
+}
+
+.cosas {
+    margin-top: 20px;
+    justify-content: space-between;
+    max-width: 90%;
+}
+
+
+
+}
+
+
+
+
+@media (min-width: 414px) and (max-width: 575.98px) {
+        /*Barra*/
+
+        .barra {
+            display: block;
+            text-align: center;
+        }
+    
+        .corralon img {
+            height: 20px;
+            margin-top: 25px;
+            width: 120px;
+        }
+        
+        .menu-barra a {
+            font-size: 8px;
+            display: block;
+            padding: 0px ;
+            text-decoration: none;
+            margin-top: 25px;
+            color: #ffffff;
+            font-weight: 600;
+
+        }
+
+        .iconos-compra img {
+            height: 12px;
+            width: 12px;
+        }
+    
+
+    /*Primero*/
+    .cartel {
+        margin-left: 30px;
+        margin-top: 10px;
+
+
+    }
+    .detalles {
+        height: auto;
+        max-height: 100px;
+        
+        }
+    .image {
+        /* justify-content: center;
+        margin: auto; */
+    }
+    .detalles h1 {
+        font-size: 9px;
+    }
+    .detalles h2 {
+        font-size: 8px;
+    }
+    .detalles h3 {
+        font-size: 15px;
+    }
+    .detalles h4 {
+        font-size: 8px;
+    }
+    .boton h1 {
+        width: 48px;
+        height: 12px;
+        text-align: center;
+    }
+    .boton h4 {
+        width: 80px;
+        height: 10px;
+        text-align: center;
+    }
+ 
+    /*Categorías*/
+
+    .detalles1 {
+        margin-top: 0px;
+    }
+    
+    .detalles1 h1{
+        font-size: 7px;
+    }
+    .detalles1 h2{
+        font-size: 8px;
+    }
+    .detalles1 h3{
+        font-size: 10px;
+    }
+    hr {
+        width: 80px;
+        height: 5px;
+    }
+    /*Producto 1*/
+    .producto1 img, .producto2 img, .producto3 img, .producto4 img{
+        width: 150px;
+        height: 260px;
+        padding: 25px;
+    }
+    
+    .producto1, .producto2, .producto3, .producto4 {
+        margin-right: 10px;
+    }
+
+    .boton-nvo {
+        height: 80px;
+        width: 90px;
+        padding: 3px;
+        margin-left: 30px;
+    }
+    
+    .boton-nvo a img {
+        height: 75px;
+        width: 75px;
+    }
+    .boton-nvo h1 {
+        font-size: 12px;
+        padding: 0px;
+    }
+    .boton-nvo {
+        margin-top: 150px;
+    }
+    
+    /*Fondo1*/
+    .fondo-1 img {
+        height: 120px;
+        width: 100%;
+        max-width: 2092px;
+        margin-top: 150px;
+    }
+
+    /*Prod Destacados*/
+    .fondo-2 img {
+        height: 80px;
+        width: 100%;
+        max-width: 2092px;
+    }
+    .otro h1 {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+
+        /*Grilla de productos*/
+
+
+
+        .prod-dest {
+            margin-top: 30px;
+        }
+        
+        .producto5 img{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .producto5 h5 {
+            font-size: 10px;
+        }
+        .producto5 h6 {
+            font-size: 20px;
+        }
+        
+        .boton2 {
+            border-radius: 10px;
+            background: #000000;
+            height: 40px;
+            width: 100px;
+            margin-top: 15px;
+        }
+        
+        .boton2 h4 {
+            font-size: 10px;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+        }
+
+                /*Publicidad1*/
+                .publicidad1 {
+                    height: 130px;
+                
+                }
+        
+
+                .publicidad1 img {
+                    height: 70px;
+                    margin: auto;
+                    margin-top: 50px;
+                    width: 90%;
+                    max-width: 1700px;
+                
+                }
+
+
+                   /*Mejores Productos*/
+
+                   .btn1-1 {
+                    display: block;
+                    margin: auto;
+                    margin-left: 20px;
+                    margin-top: 00px;
+                    } 
+            
+                .btn1-1 h1 {
+                    font-size: 10px;
+                    font-weight: 300;
+                }
+                .btn1-1 h2 {
+                    font-size: 12px;
+                    font-weight: 300;
+                }
+                .btn1-1 h3 {
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+                .otro {
+                    position: absolute;
+                    overflow: hidden;
+                    margin: auto;
+                    height: 3000px;
+                    width: 90%;
+                    max-width: 1700px;
+                }
+                
+                .producto6 {
+                    margin-right: 350px;
+                }
+                
+                .producto6 img{
+                    width: 100px;
+                    height: 100px;
+                    margin-bottom: 20px;
+                }
+                
+                .producto6 h6 {
+                    font-size: 24px;
+                
+                } 
+                .descuento h5 {
+                    font-size: 12px;
+                    width: 150px;
+                
+                } 
+                .descuento h6 {
+                    font-size: 20px;
+                } 
+                .producto6 {
+                    margin-right: 70px;
+                    margin-left: 20px;
+                
+                }
+                .txt2 {
+                    margin-top: 0px;
+                
+                }
+                
+                .txt2 h1{
+                    font-size: 12px;
+                    font-weight: 300;
+                
+                }
+                .txt2 h2{
+                    font-size: 12px;
+                    font-weight: 300;
+                    width: 200px;
+                }
+                .txt2 h3{
+                    font-size: 12px;
+                    font-weight: 600;
+                    width: 200px;
+                }
+                
+                .boton3 {
+                    border-radius: 10px;
+                    background: #2EB363;
+                    height: 20px;
+                    width: 80px;
+                    margin-top: 15px;
+                    margin-bottom: 20px;
+                }
+                
+                .boton3 h4 {
+                    font-size: 8px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    text-align: center;
+                    padding: 5px;
+                }
+                
+                .desc h1 {
+                
+                    font-size: 8px;
+                    color: #ffffff;
+                    background: #2EB363;
+                
+                    text-align: center;
+                }
+                
+                .desc { 
+                        position: relative;
+                        width: 80px;
+                        
+                }
+                
+                .descuento {
+                    position: absolute;
+                    overflow: hidden;
+                }
+
+                .boton2 {
+                    border-radius: 10px;
+                    background: #000000;
+                    height: 40px;
+                    width: 100px;
+                    margin-top: 15px;
+                }
+                
+                .boton2 h4 {
+                    font-size: 10px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    text-align: center;
+                    padding: 15px;
+                }
+                
+                
+                /*Fondo3*/
+                
+                .mejores {
+                    position: relative;
+                    margin-bottom: 250px;
+                }
+                .mjrs {
+                    margin-top: 30px;
+                }
+                
+                .fondo-3 img {
+                    width: 100%;
+                    max-width: 2092;
+                }
+                
+
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+        /*Barra*/
+
+        .barra {
+            display: block;
+            text-align: center;
+        }
+    
+        .corralon img {
+            height: 25px;
+            margin-top: 25px;
+            width: 180px;
+        }
+        
+        .menu-barra a {
+            font-size: 12px;
+            display: block;
+            padding: 0px ;
+            text-decoration: none;
+            margin-top: 25px;
+            color: #ffffff;
+            font-weight: 600;
+
+        }
+
+        .iconos-compra img {
+            height: 12px;
+            width: 12px;
+        }
+    
+
+
+    /*Primero*/
+    .cartel {
+        margin-left: 40px;
+        margin-top: 20px;
+
+
+    }
+    .image {
+        /* justify-content: center;
+        margin: auto; */
+    }
+    .detalles h1 {
+        font-size: 12px;
+    }
+    .detalles h2 {
+        font-size: 15px;
+    }
+    .detalles h3 {
+        font-size: 30px;
+    }
+    .detalles h4 {
+        font-size: 20px;
+    }
+    .boton h1 {
+        width: 80px;
+        height: 20px;
+        text-align: center;
+    }
+    .boton h4 {
+        width: 180px;
+        height: 30px;
+        text-align: center;
+    }
+
+    /*Categorías*/
+
+.detalles1 {
+    margin-top: 0px;
+}
+
+.detalles1 h1{
+    font-size: 9px;
+}
+.detalles1 h2{
+    font-size: 13px;
+}
+.detalles1 h3{
+    font-size: 15px;
+}
+hr {
+    width: 100px;
+    height: 7px;
+}
+/*Producto 1*/
+.producto1 img, .producto2 img, .producto3 img, .producto4 img{
+    width: 160px;
+    height: 260px;
+    padding: 25px;
+}
+.producto1, .producto2, .producto3, .producto4 {
+    margin-right: 10px;
+}
+
+.boton-nvo {
+    height: 80px;
+    width: 100px;
+    padding: 3px;
+    margin-left: 30px;
+}
+
+.boton-nvo a img {
+    height: 75px;
+    width: 75px;
+}
+.boton-nvo h1 {
+    font-size: 12px;
+    padding: 0px;
+}
+.boton-nvo {
+    margin-top: 150px;
+}
+
+/*Fondo1*/
+.fondo-1 img {
+    height: 120px;
+    width: 100%;
+    max-width: 2092px;
+    margin-top: 150px;
+}
+
+    /*Grilla de productos*/
+
+    .prod-dest {
+        margin-top: 30px;
+    }
+    
+    .producto5 img{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .producto5 h5 {
+        font-size: 10px;
+    }
+    .producto5 h6 {
+        font-size: 20px;
+    }
+    
+    .boton2 {
+        border-radius: 10px;
+        background: #000000;
+        height: 40px;
+        width: 100px;
+        margin-top: 15px;
+    }
+    
+    .boton2 h4 {
+        font-size: 10px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        padding: 15px;
+    }
+
+    /*Publicidad 1*/
+    .publicidad1 {
+        height: 130px;
+    
+    }
+    .publicidad1 img {
+        height: 60px;
+        margin: auto;
+        margin-top: 50px;
+        width: 90%;
+        max-width: 1700px;
+    
+    }
+
+
+    /*Mejores Productos*/
+.otro {
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+    height: 400px;
+    width: 90%;
+    max-width: 1700px;
+}
+
+
+.producto6 img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.producto6 h6 {
+    font-size: 24px;
+
+} 
+.descuento h5 {
+    font-size: 12px;
+    width: 120px;
+
+} 
+.descuento h6 {
+    font-size: 20px;
+} 
+.producto6 {
+    margin-right: 0px;
+
+}
+.txt2 {
+    margin-top: 0px;
+
+}
+
+.txt2 h1{
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.txt2 h2{
+    font-size: 12px;
+    font-weight: 300;
+    width: 200px;
+}
+.txt2 h3{
+    font-size: 12px;
+    font-weight: 600;
+    width: 200px;
+}
+
+.boton3 {
+    border-radius: 10px;
+    background: #2EB363;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.boton3 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.desc h1 {
+
+    font-size: 8px;
+    color: #ffffff;
+    background: #2EB363;
+
+    text-align: center;
+}
+
+.desc { 
+        position: relative;
+        width: 80px;
+        
+}
+
+.descuento {
+    position: absolute;
+    overflow: hidden;
+}
+
+/*Fondo3*/
+
+.mejores {
+    position: relative;
+}
+.mjrs {
+    margin-top: 30px;
+}
+
+.fondo-3 img {
+    width: 100%;
+    max-width: 2092;
+}
+
+/*Carteles de descuento*/
+
+.descuentos2 {
+    margin-top: 40px;
+}
+
+.cartel3 img {
+    
+    width: 200px;
+    padding: 10px;
+    margin: 50px 0px;
+}
+
+.boton4 {
+    border-radius: 10px;
+    background: #ffffff;
+    height: 15px;
+    width: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 110px;
+    margin-left: 120px;
+}
+
+.boton4 h4 {
+    font-size: 6px;
+    font-weight: 300;
+    color: #2EB363;
+    text-align: center;
+    padding: 5px;
+}
+
+.img{
+    position: absolute;
+}
+
+
+/*Marcas*/
+
+.texto {
+    margin-top: 10px;
+}
+
+.marcas1 {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.detalles2 {
+    margin-top: 30px;
+}
+
+
+.detalles2 h1{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.detalles2 h2{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.detalles2 h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.marcas2 img {
+    height: 150px;
+    width: 250px;
+}
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+        /*Barra*/
+
+        .barra {
+            display: block;
+            text-align: center;
+        }
+    
+        .corralon img {
+            height: 25px;
+            margin-top: 25px;
+            width: 180px;
+        }
+        
+        .menu-barra a {
+            font-size: 12px;
+            display: block;
+            padding: 0px ;
+            text-decoration: none;
+            margin-top: 25px;
+            color: #ffffff;
+            font-weight: 600;
+
+        }
+
+        .iconos-compra img {
+            height: 12px;
+            width: 12px;
+        }
+    
+        /*Primero*/
+        .cartel {
+            margin-left: 40px;
+            margin-top: 30px;
+    
+    
+        }
+        .image {
+            /* justify-content: center;
+            margin: auto; */
+        }
+        .detalles h1 {
+            font-size: 12px;
+        }
+        .detalles h2 {
+            font-size: 15px;
+        }
+        .detalles h3 {
+            font-size: 30px;
+        }
+        .detalles h4 {
+            font-size: 20px;
+        }
+        .boton h1 {
+            width: 80px;
+            height: 20px;
+            text-align: center;
+        }
+        .boton h4 {
+            width: 180px;
+            height: 30px;
+            text-align: center;
+        }
+
+
+        /*Categorías*/
+
+.detalles1 {
+    margin-top: 0px;
+}
+
+.detalles1 h1{
+    font-size: 10px;
+}
+.detalles1 h2{
+    font-size: 13px;
+}
+.detalles1 h3{
+    font-size: 15px;
+}
+hr {
+    width: 130px;
+}
+/*Producto 1*/
+.producto1 img, .producto2 img, .producto3 img, .producto4 img{
+    width: 180px;
+    height: 280px;
+    padding: 25px;
+}
+
+.boton-nvo {
+    height: 80px;
+    width: 120px;
+    padding: 3px;
+    margin-left: 30px;
+}
+
+.boton-nvo a img {
+    height: 75px;
+    width: 75px;
+}
+.boton-nvo h1 {
+    font-size: 12px;
+    padding: 0px;
+}
+
+/*Fondo1*/
+.fondo-1 img {
+    height: 120px;
+    width: 100%;
+    max-width: 2092px;
+    margin-top: 150px;
+}
+
+    /*Prod Destacados*/
+
+    .fondo-2 img {
+        height: 80px;
+        width: 50%;
+        max-width: 2092px;
+    }
+    .otro h1 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+
+    /*Grilla de productos*/
+
+
+.prod-dest {
+    margin-top: 30px;
+}
+
+.producto5 img{
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+.producto5 h5 {
+    font-size: 10px;
+}
+.producto5 h6 {
+    font-size: 20px;
+}
+
+.boton2 {
+    border-radius: 10px;
+    background: #000000;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.boton2 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+/*Publicidad1*/
+.marcas1 {
+    max-width: 1700px;
+    width: 90%;
+}
+.publicidad1 {
+    height: 150px;
+
+}
+.publicidad1 img {
+    height: 80px;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 1700px;
+
+}
+
+
+/*Mejores Productos*/
+.otro {
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+    height: 400px;
+}
+
+
+.producto6 img{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.producto6 h6 {
+    font-size: 24px;
+} 
+.descuento h5 {
+    font-size: 12px;
+} 
+.descuento h6 {
+    font-size: 20px;
+} 
+.producto6 {
+    margin-right: 0px;
+}
+.txt2 {
+    margin-top: 0px;
+
+}
+
+.txt2 h1{
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.txt2 h2{
+    font-size: 14px;
+    font-weight: 300;
+    width: 250px;
+}
+.txt2 h3{
+    font-size: 14px;
+    font-weight: 600;
+    width: 250px;
+}
+
+.boton3 {
+    border-radius: 10px;
+    background: #2EB363;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.boton3 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.desc h1 {
+
+    font-size: 12px;
+    color: #ffffff;
+    background: #2EB363;
+
+    text-align: center;
+}
+
+.desc { 
+        position: relative;
+        width: 120px;
+
+}
+
+.descuento {
+    position: absolute;
+    overflow: hidden;
+}
+
+/*Fondo3*/
+
+.mejores {
+    position: relative;
+}
+.mjrs {
+    margin-top: 30px;
+}
+
+.fondo-3 img {
+    width: 100%;
+    max-width: 2092;
+}
+
+/*Carteles de descuento*/
+
+.cartel3 img {
+  
+    width: 250px;
+    padding: 10px;
+    margin: 50px 0px;
+}
+
+.boton4 {
+    border-radius: 10px;
+    background: #ffffff;
+    height: 20px;
+    width: 70px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 122px;
+    margin-left: 145px;
+}
+
+.boton4 h4 {
+    font-size: 8px;
+    font-weight: 300;
+    color: #2EB363;
+    text-align: center;
+    padding: 5px;
+}
+
+.img{
+    position: absolute;
+}
+
+/*Marcas*/
+
+.marcas1 {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.detalles2 {
+    margin-top: 30px;
+}
+
+
+.detalles2 h1{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.detalles2 h2{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.detalles2 h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.marcas2 img {
+    height: 200px;
+    width: 400px;
+}
+
+
+
+
+
+}
+
+
+
+
+@media (min-width: 1000px) and (max-width: 1024px){
+        /*Barra*/
+
+        .barra {
+            display: block;
+            text-align: center;
+        }
+    
+        .corralon img {
+            height: 25px;
+            margin-top: 25px;
+            width: 180px;
+        }
+        
+        .menu-barra a {
+            font-size: 12px;
+            display: block;
+            padding: 0px ;
+            text-decoration: none;
+            margin-top: 25px;
+            color: #ffffff;
+            font-weight: 600;
+
+        }
+
+        .iconos-compra img {
+            height: 12px;
+            width: 12px;
+        }
+    
+    /*Primero*/
+    .cartel {
+        margin-left: 120px;
+        margin-top: 50px;
+
+
+    }
+    .detalles h1 {
+        font-size: 18px;
+    }
+    .detalles h2 {
+        font-size: 20px;
+    }
+    .detalles h3 {
+        font-size: 40px;
+    }
+    .detalles h4 {
+        font-size: 24px;
+    }
+    .boton h1 {
+        width: 100px;
+        height: 25px;
+        text-align: center;
+    }
+    .boton h4 {
+        width: 220px;
+        height: 35px;
+        text-align: center;
+    }
+
+/*Categorías*/
+
+.detalles1 {
+    margin-top: 0px;
+}
+
+.detalles1 h1{
+    font-size: 14px;
+}
+.detalles1 h2{
+    font-size: 13px;
+}
+.detalles1 h3{
+    font-size: 15px;
+}
+hr {
+    width: 140px;
+}
+/*Producto 1*/
+.producto1 img, .producto2 img, .producto3 img, .producto4 img{
+    width: 190px;
+    height: 280px;
+    padding: 25px;
+}
+
+.boton-nvo {
+    height: 80px;
+    width: 130px;
+    padding: 3px;
+    margin-left: 30px;
+}
+
+.boton-nvo a img {
+    height: 75px;
+    width: 75px;
+}
+.boton-nvo h1 {
+    font-size: 12px;
+    padding: 0px;
+}
+
+/*Fondo1*/
+.fondo-1 img {
+    height: 120px;
+    width: 100%;
+    max-width: 2092px;
+    margin-top: 150px;
+}
+
+    /*Grilla de productos*/
+
+    .prod-dest {
+        margin-top: 30px;
+    }
+    
+    .producto5 img{
+        width: 190px;
+        height: 190px;
+        margin-bottom: 20px;
+    }
+    .producto5 h5 {
+        font-size: 10px;
+    }
+    .producto5 h6 {
+        font-size: 20px;
+    }
+    
+    .boton2 {
+        border-radius: 10px;
+        background: #000000;
+        height: 40px;
+        width: 100px;
+        margin-top: 15px;
+    }
+    
+    .boton2 h4 {
+        font-size: 10px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        padding: 15px;
+    }
+
+        /*Publicidad1*/
+        .publicidad1 {
+            height: 150px;
+        
+        }
+
+        .publicidad1 img {
+            height: 100px;
+            margin: auto;
+            margin-top: 50px;
+            width: 90%;
+            max-width: 1700px;
+        
+        }
+    
+            /*Mejores Productos*/
+.otro {
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+    height: 400px;
+    width: 90%;
+    max-width: 1700px;
+}
+
+
+.producto6 img{
+    width: 190px;
+    height: 190px;
+    margin-bottom: 20px;
+}
+
+.producto6 h6 {
+    font-size: 24px;
+
+} 
+.descuento h5 {
+    font-size: 18px;
+    width: 180px;
+
+} 
+.descuento h6 {
+    font-size: 24px;
+} 
+.producto6 {
+    margin-right: 0px;
+
+}
+.txt2 {
+    margin-top: 0px;
+
+}
+
+.txt2 h1{
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.txt2 h2{
+    font-size: 16px;
+    font-weight: 300;
+    width: 200px;
+}
+.txt2 h3{
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+}
+
+.boton3 {
+    border-radius: 10px;
+    background: #2EB363;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.boton3 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.desc h1 {
+
+    font-size: 8px;
+    color: #ffffff;
+    background: #2EB363;
+
+    text-align: center;
+}
+
+.desc { 
+        position: relative;
+        width: 80px;
+        
+}
+
+.descuento {
+    position: absolute;
+    overflow: hidden;
+}
+
+/*Fondo3*/
+
+.mejores {
+    position: relative;
+}
+.mjrs {
+    margin-top: 30px;
+}
+
+.fondo-3 img {
+    width: 100%;
+    max-width: 2092;
+}
+
+/*Carteles de descuento*/
+
+.descuentos2 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.cartel3 img {
+    
+    width: 300px;
+    padding: 10px;
+    margin: 50px 0px;
+}
+
+.boton4 {
+    border-radius: 10px;
+    background: #ffffff;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 135px;
+    margin-left: 180px;
+}
+
+.boton4 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #2EB363;
+    text-align: center;
+    padding: 10px;
+}
+
+.img{
+    position: absolute;
+}
+
+/*Marcas*/
+
+.texto {
+    margin-top: 30px;
+}
+
+.marcas1 {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.detalles2 {
+    margin-top: 30px;
+}
+
+
+.detalles2 h1{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.detalles2 h2{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.detalles2 h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.marcas2 img {
+    height: 250px;
+    width: 450px;
+}
+
+
+
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1380px){
+    .barra {
+        display: block;
+    }
+
+
+
+    /*Primero*/
+    .cartel {
+        margin-left: 120px;
+        margin-top: 60px;
+
+
+    }
+    .detalles h1 {
+        font-size: 18px;
+    }
+    .detalles h2 {
+        font-size: 20px;
+    }
+    .detalles h3 {
+        font-size: 40px;
+    }
+    .detalles h4 {
+        font-size: 24px;
+    }
+    .boton h1 {
+        width: 100px;
+        height: 25px;
+        text-align: center;
+    }
+    .boton h4 {
+        width: 220px;
+        height: 35px;
+        text-align: center;
+    }
+
+    /*Destacados*/
+
+    .otro {
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+
+        /*Grilla de productos*/
+
+        .prod-dest {
+            margin-top: 30px;
+        }
+        
+        .producto5 img{
+            width: 190px;
+            height: 190px;
+            margin-bottom: 20px;
+        }
+        .producto5 h5 {
+            font-size: 10px;
+        }
+        .producto5 h6 {
+            font-size: 20px;
+        }
+        
+        .boton2 {
+            border-radius: 10px;
+            background: #000000;
+            height: 40px;
+            width: 100px;
+            margin-top: 15px;
+        }
+        
+        .boton2 h4 {
+            font-size: 10px;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /*Publicidad1*/
+        .publicidad1 {
+            height: 180px;
+        
+        }
+
+        .publicidad1 img {
+            height: 120px;
+            margin: auto;
+            margin-top: 50px;
+            width: 90%;
+            max-width: 1700px;
+        
+        }
+
+
+            /*Mejores Productos*/
+.otro {
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+    height: 400px;
+    width: 90%;
+    max-width: 1700px;
+}
+
+
+.producto6 img{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.producto6 h6 {
+    font-size: 38px;
+
+} 
+.descuento h5 {
+    font-size: 16px;
+    width: 250px;
+
+} 
+.descuento h6 {
+    font-size: 24px;
+} 
+.producto6 {
+    margin-right: 0px;
+
+}
+.txt2 {
+    margin-top: 0px;
+
+}
+
+.txt2 h1{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.txt2 h2{
+    font-size: 18px;
+    font-weight: 300;
+    width: 250px;
+}
+.txt2 h3{
+    font-size: 18px;
+    font-weight: 600;
+    width: 250px;
+}
+
+.boton3 {
+    border-radius: 10px;
+    background: #2EB363;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.boton3 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.desc h1 {
+
+    font-size: 14px;
+    color: #ffffff;
+    background: #2EB363;
+
+    text-align: center;
+}
+
+.desc { 
+        position: relative;
+        width: 140px;
+        
+}
+
+.descuento {
+    position: absolute;
+    overflow: hidden;
+}
+
+/*Fondo3*/
+
+.mejores {
+    position: relative;
+}
+.mjrs {
+    margin-top: 30px;
+}
+
+.fondo-3 img {
+    width: 100%;
+    max-width: 2092;
+}
+
+
+
+/*Carteles de descuento*/
+
+.descuentos2 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.cartel3 img {
+    
+    width: 300px;
+    padding: 10px;
+    margin: 50px 0px;
+}
+
+.boton4 {
+    border-radius: 10px;
+    background: #ffffff;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 135px;
+    margin-left: 180px;
+}
+
+.boton4 h4 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #2EB363;
+    text-align: center;
+    padding: 10px;
+}
+
+.img{
+    position: absolute;
+}
+
+/*Marcas*/
+
+.texto {
+    margin-top: 30px;
+}
+
+.marcas1 {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.detalles2 {
+    margin-top: 30px;
+}
+
+
+.detalles2 h1{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.detalles2 h2{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.detalles2 h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.marcas2 img {
+    height: 250px;
+    width: 450px;
+}
+
+
+}
+
+
+@media (min-width: 1380px) and (max-width: 1920px){
+    .barra {
+        display: block;
+    }
+
+
+
+    /*Primero*/
+    .cartel {
+        margin-left: 190px;
+        margin-top: 100px;
+
+
+    }
+    .detalles h1 {
+        font-size: 35px;
+    }
+    .detalles h2 {
+        font-size: 35px;
+    }
+    .detalles h3 {
+        font-size: 60px;
+    }
+    .detalles h4 {
+        font-size: 45px;
+    }
+    .boton h1 {
+        width: 190px;
+        height: 50px;
+        text-align: center;
+    }
+    .boton h4 {
+        width: 400px;
+        height: 65px;
+        text-align: center;
+    }
+
+    /*Destacados*/
+    .otro {
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+}
+
